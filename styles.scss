@@ -42,6 +42,52 @@
         gap: 1.5rem;
     }
 
+    .card-tag {
+        font-family: 'Montserrat', sans-serif;
+        color: var(--neutral-grey);
+        line-height: 1.2;
+        letter-spacing: 0.3125rem;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+    }
+
+    h1 {
+        font-family: 'Fraunces', sans-serif;
+        color: var(--neutral-black);
+        line-height: 1;
+        font-size: 2rem;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        color: var(--neutral-grey);
+        line-height: 1.6;
+        font-size: 0.875rem;
+    }
+
+    .card-price {
+        font-family: 'Fraunces', sans-serif;
+        color: var(--primary-green-500);
+        line-height: 1;
+        font-size: 2rem;
+    }
+
+    .price-old {
+        font-family: 'Fraunces', sans-serif;
+        color: var(--neutral-grey);
+        line-height: 1.2;
+        font-size: 0.8125rem;
+    }
+
+    button {
+        font-family: 'Fraunces', sans-serif;
+        background-color: var(--primary-green-500);
+        color: var(--neutral-white);
+        line-height: 1.1;
+        font-size: 0.875rem;
+        padding: 1rem 2rem;
+        border-radius: 8px;
+    }
 }
 
 /* Footer */
