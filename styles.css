@@ -29,7 +29,7 @@ body {
 /* Card */
 .card {
   background-color: var(--neutral-white);
-  width: 350px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   border-radius: 8px;
@@ -122,4 +122,33 @@ body {
 }
 .attribution a {
   color: var(--color-footer);
+}
+
+@media screen and (min-width: 37.5rem) {
+  .card {
+    max-width: 600px;
+    max-height: 456px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+  picture {
+    flex: 1;
+    overflow: hidden;
+  }
+  .card picture img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .card .card-content {
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+  }
+  .card button {
+    max-height: 50px;
+  }
 }/*# sourceMappingURL=styles.css.map */
