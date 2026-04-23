@@ -16,13 +16,26 @@
     padding: 0;
 }
 
-/* Card */
-.card {
+/* Background */
+body {
     min-height: 100vh;
-    width: 100%;
+    background-color: var(--neutral-cream);
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
+
+
+/* Card */
+.card {
+    background-color: var(--neutral-white);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    overflow: hidden;
 
     .card-content {
         display: flex;
@@ -31,9 +44,11 @@
         gap: 1.5rem;
     }
 
-    img {
+    picture img {
         display: block;
         width: 100%;
+        height: 342px;
+        object-fit: cover;
     }
 
     .card-info {
@@ -63,6 +78,7 @@
         color: var(--neutral-grey);
         line-height: 1.6;
         font-size: 0.875rem;
+
     }
 
     .card-price {
@@ -70,6 +86,10 @@
         color: var(--primary-green-500);
         line-height: 1;
         font-size: 2rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
     }
 
     .price-old {
@@ -77,16 +97,33 @@
         color: var(--neutral-grey);
         line-height: 1.2;
         font-size: 0.8125rem;
+        text-decoration: line-through;
     }
 
     button {
-        font-family: 'Fraunces', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         background-color: var(--primary-green-500);
         color: var(--neutral-white);
         line-height: 1.1;
         font-size: 0.875rem;
+        font-weight: 700;
         padding: 1rem 2rem;
         border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        cursor: pointer;
+
+        &:hover {
+            background-color: var(--primary-green-700);
+        }
+    }
+
+    .button-svg {
+        width: 18px;
+        height: 18px;
+        color: var(--neutral-white);
     }
 }
 
@@ -94,6 +131,7 @@
 .attribution {
     font-size: 0.6875rem;
     text-align: center;
+    margin-top: 1rem;
 
     a {
         color: var(--color-footer);
