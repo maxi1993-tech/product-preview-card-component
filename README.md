@@ -26,7 +26,7 @@ A responsive product preview card with two layouts — stacked on mobile, side-b
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/product-preview-card-component-sass-flexbox-picture-element-yOT5M2K6Go)
 - Live Site URL: [https://maxi1993-tech.github.io/product-preview-card-component/](https://maxi1993-tech.github.io/product-preview-card-component/)
 
 ## My process
